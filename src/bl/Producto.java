@@ -1,4 +1,6 @@
-class Producto {
+package bl;
+
+public class Producto {
     private Integer id;
     private String nombre;
     private double precio;
@@ -19,4 +21,4 @@ class Producto {
 }
 
 //Encapsulamiento: Los atributos (id, nombre, precio) son privados y se manipulan a través de métodos públicos.
-//Asociación: Producto es utilizado por ItemCarrito, representando la relación entre un producto y la cantidad que se agrega al carrito.
+//Asociación: bl.Producto es utilizado por bl.ItemCarrito, representando la relación entre un producto y la cantidad que se agrega al carrito.
